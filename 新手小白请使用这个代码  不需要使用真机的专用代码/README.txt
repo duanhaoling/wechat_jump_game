@@ -1,33 +1,32 @@
-0.°²×°Pyhton»·¾³
-ÏÂÔØAnacoda£ºhttps://www.anaconda.com/download/
+0.å®‰è£…Pyhtonç¯å¢ƒ
+ä¸‹è½½Anacodaï¼šhttps://www.anaconda.com/download/
 
 
-1.ÏÂÔØ½Å±¾
+1.ä¸‹è½½è„šæœ¬
 https://github.com/wangshub/wechat_jump_game
 
 
-2.ÏÂÔØBlueStacks
+2.ä¸‹è½½BlueStacks
 http://rj.baidu.com/soft/detail/23826.html?ald
 
 
-3.ÏÂÔØadb
+3.ä¸‹è½½adb
 http://adbshell.com/downloads
 
 
-4.Á¬½ÓBlueStacks   
+4.è¿æ¥BlueStacks
 
 adb devices
 adb connect 127.0.0.1:5555
 
 
-5.ÔËĞĞ½Å±¾
-ĞŞ¸Ä²ÎÊı
+5.è¿è¡Œè„šæœ¬
+ä¿®æ”¹å‚æ•°
 
 
-½Å±¾£ºÊ±¼ä2017-12-29 Íí10µã
+è„šæœ¬ï¼šæ—¶é—´2017-12-29 æ™š10ç‚¹
 
 
 
 
-ºÃ´¦£º²»ĞèÒªÊ¹ÓÃÕæ»ú£¡£¡£¡£¡£¡£¡£¡£¡
-
+å¥½å¤„ï¼šä¸éœ€è¦ä½¿ç”¨çœŸæœºï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼
