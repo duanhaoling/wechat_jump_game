@@ -184,7 +184,7 @@ def find_piece_and_board(im):
                 board_x_c += 1
         if board_x_sum:
             board_x = board_x_sum / board_x_c
-    # 按实际的角度来算，找到接近下一个 board 中心的坐标 这里的角度应该是30°,值应该是tan 30°, math.sqrt(3) / 3
+    # 按实际的角度来算，找到接近下一个 board 中心的≥坐标 这里的角度应该是30°,值应该是tan 30°, math.sqrt(3) / 3
     board_y = piece_y - abs(board_x - piece_x) * math.sqrt(3) / 3
 
     if not all((board_x, board_y)):

@@ -18,7 +18,7 @@ def testWith1():
         raise NameError("Hi there")
         sys.exit()
         print "Never here"
-testWith1()
+# testWith1()
 
 
 def TestWith2():
@@ -30,27 +30,27 @@ def TestWith2():
 # TestWith2()
 
 
-# class controlled_execution(object):
-#     def __init__(self, filename):
-#         self.filename = filename
-#         self.f = None
-#
-#     def __enter__(self):
-#         try:
-#             f = open(self.filename, 'r')
-#             content = f.read()
-#             return content
-#         except IOError  as e:
-#             print (e)
-#
-#     def __exit__(self, type, value, traceback):
-#         if self.f:
-#             print ('type:%s, value:%s, traceback:%s' % (str(type), str(value), str(traceback)))
-#             self.f.close()
-#
-#
-# def TestWithAndException():
-#     with controlled_execution("myfile.txt") as thing:
-#         if thing:
-#             print(thing)
-# TestWithAndException()
+class controlled_execution(object):
+    def __init__(self, filename):
+        self.filename = filename
+        self.f = None
+
+    def __enter__(self):
+        try:
+            f = open(self.filename, 'r')
+            content = f.read()
+            return content
+        except IOError  as e:
+            print (e)
+
+    def __exit__(self, type, value, traceback):
+        if self.f:
+            print ('type:%s, value:%s, traceback:%s' % (str(type), str(value), str(traceback)))
+            self.f.close()
+
+
+def TestWithAndException():
+    with controlled_execution("myfile.txt") as thing:
+        if thing:
+            print(thing)
+TestWithAndException()
